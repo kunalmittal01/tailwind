@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Landing Page</title>
+    <style>
+        .gradient {
+          background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+        }
+        .h-30 {
+            height: 29rem;
+        }
+      </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="overflow-x-hidden bg-gray-100">
+    <nav class="flex justify-between items-center p-2 gradient border-b border-slate-300 relative">
+        <div class="logo ml-3">
+            <a href="#" class="inline-flex items-center gap-2"><svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
+                <rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)"></rect>
+                <path class="plane-take-off fill-white" d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "></path>
+                </svg>
+                <span class="font-bold text-3xl text-white">LANDING</span>
+            </a>  
+        </div>
+        <div class="nav-links flex gap-5 mr-3 hidden md:flex">
+            <a href="#" class="nav-link ease-in duration-150 hover:text-neutral-600 border border-transparent hover:border-black hover:rounded-lg">Home</a>
+            <a href="#" class="nav-link ease-in duration-150 hover:text-neutral-600 border border-transparent hover:border-black hover:rounded-lg">About</a>
+            <a href="#" class="nav-link ease-in duration-150 hover:text-neutral-600 border border-transparent hover:border-black hover:rounded-lg">Services</a>
+            <a href="#" class="nav-link ease-in duration-150 hover:text-neutral-600 border border-transparent hover:border-black hover:rounded-lg">Contact</a>
+        </div>
+        <div class="menu ease-in duration-150 md:hidden block hover:cursor-pointer text-white hover:scale-50">
+            <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <title>Menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+              </svg>
+        </div>
+        <div class="list w-full left-5 top-20 h-46 hidden absolute overflow-hidden">
+            <ul class="bg-white flex flex-col gap-2 p-5">
+                <li><a href="#" class="font-bold text-lg">Active</a></li>
+                <li class="ease-in duration-150 hover:scale-105"><a href="#" class="hover:text-slate-400">link</a></li>
+                <li class="ease-in duration-150 hover:scale-105"><a href="#" class="ease-in duration-150 hover:text-slate-400">link</a></li>
+                <li class="ease-in duration-150 hover:scale-105"><button class="rounded-2xl shadow p-2 py-3 text-slate-500">Action</button></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero-wrapper gradient">
+        <div class="hero gradient flex flex-col gap-5 md:flex-row md:gap-0">
+            <div class="hero-content flex flex-col gap-5 mt-7 ml-7 items-center md:items-start">
+                <p class="text-white text-center">What business are you?</p>
+                <h1 class="text-white text-4xl text-center md:text-start md:text-5xl">Main Hero Message to sell yourself!</h1>
+                <p class="text-white text-xl text-center">Sub-hero message, not too long and not too short. Make it just right!</p>
+                <button class="py-2 px-3 text-zinc-700 bg-white rounded-2xl font-medium ease-in duration-150 w-28 hover:text-black">Subscribe</button>
+            </div>
+            <div class="hero-img">
+                <img src="https://tailwindtoolbox.github.io/Landing-Page/hero.png" alt="">
+            </div>
+        </div>
+        <div class="effect -mt-10"></div>
+            <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
+                    <path d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z" opacity="0.100000001"></path>
+                    <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" id="Path-4" opacity="0.200000003"></path>
+                  </g>
+                  <g transform="translate(-4.000000, 76.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M0.457,34.035 C57.086,53.198 98.208,65.809 123.822,71.865 C181.454,85.495 234.295,90.29 272.033,93.459 C311.355,96.759 396.635,95.801 461.025,91.663 C486.76,90.01 518.727,86.372 556.926,80.752 C595.747,74.596 622.372,70.008 636.799,66.991 C663.913,61.324 712.501,49.503 727.605,46.128 C780.47,34.317 818.839,22.532 856.324,15.904 C922.689,4.169 955.676,2.522 1011.185,0.432 C1060.705,1.477 1097.39,3.129 1121.236,5.387 C1161.703,9.219 1208.621,17.821 1235.4,22.304 C1285.855,30.748 1354.351,47.432 1440.886,72.354 L1441.191,104.352 L1.121,104.031 L0.457,34.035 Z"></path>
+                  </g>
+                </g>
+              </svg>
+        </div>
+    </div>
+    <div class="title mt-10">
+        <div class="title-head">
+            <p class="text-4xl text-slate-600 font-semibold text-center">Title</p>
+            <div class="divider h-1 rounded-lg w-56 mx-auto bg-pink-300 mt-2"></div>
+        </div>
+        <div class="title-cards flex flex-col mt-10 gap-6 md:flex-row md:justify-around items-center md:items-start md:gap-3 p-5">
+            <div class="card bg-white flex flex-col w-3/4 md:w-1/3 shadow-2xl rounded px-4 py-2">
+                <p>xGETTING STARTED</p>
+                <p class="text-black font-bold my-2 text-lg">Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, expedita sed!</p>
+                <div class="button mt-9 text-center md:text-start">
+                    <button class="gradient ease-in duration-300 rounded-3xl py-3 px-6 text-neutral-800 font-semibold hover:text-white">Action</button>
+                </div>
+            </div>
+            <div class="card bg-white flex flex-col shadow-2xl rounded px-4 py-2 w-3/4 md:w-1/3">
+                <p>xGETTING STARTED</p>
+                <p class="text-black font-bold my-2 text-lg">Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, expedita sed!</p>
+                <div class="button mt-9 text-center md:text-start">
+                    <button class="gradient ease-in duration-300 rounded-3xl py-3 px-6 text-neutral-800 font-semibold hover:text-white">Action</button>
+                </div>
+            </div>
+            <div class="card bg-white flex flex-col shadow-2xl rounded px-4 py-2 w-3/4 md:w-1/3 ">
+                <p>xGETTING STARTED</p>
+                <p class="text-black font-bold my-2 text-lg">Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, expedita sed!</p>
+                <div class="button mt-9 text-center md:text-start">
+                    <button class="gradient ease-in duration-300 rounded-3xl py-3 px-6 text-neutral-800 font-semibold hover:text-white">Action</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pricing mt-9">
+        <div class="title-head">
+            <p class="text-4xl text-slate-600 font-semibold text-center">Pricing</p>
+            <div class="divider h-1 rounded-lg w-56 mx-auto bg-pink-300 mt-2"></div>
+        </div>
+        <div class="pricing-cards mt-9 flex flex-col gap-5 items-center md:items-end md:justify-center md:flex-row md:gap-0">
+            <div class="card w-3/4 bg-white md:w-56 border shadow py-5">
+                <h2 class="text-slate-600 font-medium text-xl p-5 text-center">Free</h2>
+                <div class="divider h-1 w-full bg-gray-300 mt-4"></div>
+                <p class="text-sm text-center border-b py-4">Thing</p>
+                <p class="text-sm text-center border-b py-4">Thing</p>
+                <p class="text-sm text-center border-b py-4">Thing</p>
+                <p class="text-center font-bold text-slate-700 mt-8"><span class="text-3xl font-semibold">£0 </span>for one user</p>
+                <div class="text-center mt-4">
+                    <button class="gradient py-3 px-6 text-white rounded-full">Sign Up</button>
+                </div>
+            </div>
+            <div class="card h-30 bg-white border shadow-lg md:shadow-2xl py-5 w-3/4 md:w-56">
+                <h2 class="text-slate-800 font-bold text-2xl p-5 text-center">Basic</h2>
+                <div class="divider h-1 w-full gradient mt-4"></div>
+                <p class="text-sm text-center border-b py-4 font-bold">Thing</p>
+                <p class="text-sm text-center border-b py-4 font-bold">Thing</p>
+                <p class="text-sm text-center border-b py-4 font-bold">Thing</p>
+                <p class="text-sm text-center border-b py-4 font-bold">Thing</p>
+                <p class="text-center font-bold text-slate-700 mt-8"><span class="text-3xl font-semibold">£x.99 </span>/ per user</p>
+                <div class="text-center mt-4">
+                    <button class="gradient py-3 px-6 text-white rounded-full">Sign Up</button>
+                </div>
+            </div>
+            <div class="card w-3/4 bg-white md:w-56 border shadow py-5">
+                <h2 class="text-slate-600 font-medium text-xl p-5 text-center">Pro</h2>
+                <div class="divider h-1 w-full bg-gray-300 mt-4"></div>
+                <p class="text-sm text-center border-b py-4">Thing</p>
+                <p class="text-sm text-center border-b py-4">Thing</p>
+                <p class="text-sm text-center border-b py-4">Thing</p>
+                <p class="text-center font-bold text-slate-700 mt-8"><span class="text-3xl font-semibold">£x.99 </span>for one user</p>
+                <div class="text-center mt-4">
+                    <button class="gradient py-3 px-6 text-white rounded-full">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="effect mt-10"></div>
+        <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
+                <path d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z" opacity="0.100000001"></path>
+                <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" id="Path-4" opacity="0.200000003"></path>
+                </g>
+                <g transform="translate(-4.000000, 76.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M0.457,34.035 C57.086,53.198 98.208,65.809 123.822,71.865 C181.454,85.495 234.295,90.29 272.033,93.459 C311.355,96.759 396.635,95.801 461.025,91.663 C486.76,90.01 518.727,86.372 556.926,80.752 C595.747,74.596 622.372,70.008 636.799,66.991 C663.913,61.324 712.501,49.503 727.605,46.128 C780.47,34.317 818.839,22.532 856.324,15.904 C922.689,4.169 955.676,2.522 1011.185,0.432 C1060.705,1.477 1097.39,3.129 1121.236,5.387 C1161.703,9.219 1208.621,17.821 1235.4,22.304 C1285.855,30.748 1354.351,47.432 1440.886,72.354 L1441.191,104.352 L1.121,104.031 L0.457,34.035 Z"></path>
+                </g>
+            </g>
+            </svg>
+    </div>
+    <div class="action gradient py-14">    
+        <h1 class="text-center text-5xl text-white font-bold">Call to Action</h1>
+        <div class="h-1 w-36 bg-slate-200 mx-auto mt-4 rounded"></div>
+        <p class="text-center text-2xl text-white font-semibold mt-8">Main Hero Message to sell yourself!</p>
+        <div class="button text-center mt-9">
+            <button class="gradient py-3 px-6 text-white rounded-full">Action!</button>
+        </div>
+    </div>
+    <footer class="mt-14 flex flex-col md:gap-8 md:flex-row">
+        <div class="logo ml-3">
+            <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+            <!--Icon from: http://www.potlabicons.com/ -->
+            <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
+              <rect fill=pink x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)"></rect>
+              <path class="plane-take-off" d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "></path>
+            </svg>
+            LANDING
+          </a>
+        </div>
+          <div class="content md:w-3/5 flex flex-col items-center md:justify-between md:flex-row md:items-start">
+            <div class="links flex flex-col md:flex-col">
+                <p class="text-lg font-medium text-zinc-600 my-3">LINKS</p>
+                <p>FAQ</p>
+                <p>Help</p>
+                <p>Support</p>
+            </div>
+            <div class="legal flex-row md:flex-col">
+                <p class="text-lg font-medium text-zinc-600 my-3">LEGAL</p>
+                <p>Terms</p>
+                <p>Privacy</p>
+            </div>
+            <div class="social flex-row md:flex-col">
+                <p class="text-lg font-medium text-zinc-600 my-3">SOCIAL</p>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>Instagram</p>
+            </div>
+            <div class="company flex-row md:flex-col">
+                <p class="text-lg font-medium text-zinc-600 my-3">COMPANY</p>
+                <p>Official Blog</p>
+                <p>About</p>
+                <p>Contact</p>
+            </div>
+    </footer>
+    <script>
+        let clicked = false;
+        document.querySelector('.menu').addEventListener('click', function() {
+            if(!clicked) {
+                document.querySelector('.list').style.display = 'block';
+                clicked = true;
+            }
+            else {
+                document.querySelector('.list').style.display = 'none';
+                clicked = false;
+            }
+        });
+    </script>
+</body>
+</html>
